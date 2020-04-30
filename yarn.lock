@@ -768,6 +768,20 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@mycujoo/http-streaming@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@mycujoo/http-streaming/-/http-streaming-2.0.0.tgz#831eda27e71bfe8fa0da2fff15db0db0688b3d3b"
+  integrity sha512-1FFZ9Qhvr0QWpKZH0t4/adVJe3b9/MOfUMsifm9vb+g5Yz5CFbqhwEh71lFCIWJp8NzniZZkuAzFGxJwnrEX/w==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@videojs/vhs-utils" "^2.0.0"
+    aes-decrypter "3.0.1"
+    global "^4.3.2"
+    m3u8-parser "4.4.2"
+    mpd-parser "0.10.1"
+    mux.js "5.5.2"
+    video.js "^6 || ^7"
+
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
@@ -871,19 +885,6 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
-"@videojs/http-streaming@1.11.0-alpha.1":
-  version "1.11.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-1.11.0-alpha.1.tgz#803ef216f8da8551c852c116dbeda88c789beee0"
-  integrity sha512-erMwrBcj5lFy/m0oEIb5smHi9yz9F5QIPzqhDD/CvIXrBs5HP/MkRY0ecsqBmT1HTcLbNPZb8FokqUt1KwSGUQ==
-  dependencies:
-    aes-decrypter "3.0.0"
-    global "^4.3.2"
-    m3u8-parser "4.4.0"
-    mpd-parser "0.8.1"
-    mux.js "5.2.0-3"
-    url-toolkit "^2.1.3"
-    video.js "^6 || ^7"
-
 "@videojs/http-streaming@1.12.2":
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-1.12.2.tgz#9ee790ff5e83eb3aab08ba3c8e434ace92a16013"
@@ -897,10 +898,19 @@
     url-toolkit "^2.1.3"
     video.js "^6.8.0 || ^7.0.0"
 
-"@videojs/vhs-utils@^1.1.0":
+"@videojs/vhs-utils@^1.0.0", "@videojs/vhs-utils@^1.1.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@videojs/vhs-utils/-/vhs-utils-1.3.0.tgz#04fe402f603af9a5df4b88881fabba0cf13814c2"
   integrity sha512-oiqXDtHQqDPun7JseWkirUHGrgdYdeF12goUut5z7vwAj4DmUufEPFJ4xK5hYGXGFDyDhk2rSFOR122Ze6qXyQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    global "^4.3.2"
+    url-toolkit "^2.1.6"
+
+"@videojs/vhs-utils@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@videojs/vhs-utils/-/vhs-utils-2.1.0.tgz#9d3fd4597ed06954523cb7b8804b33ded9e3fc46"
+  integrity sha512-aOCpiUGrKLjiSOtTLCb8sfeW65kSpmxYtTzumgAz/deSPKJyy6FyUi+tUMhZ/SmPQBkMzPcl4ABGEsLyZi9Niw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     global "^4.3.2"
@@ -1040,6 +1050,16 @@ aes-decrypter@3.0.0:
     commander "^2.9.0"
     global "^4.3.2"
     pkcs7 "^1.0.2"
+
+aes-decrypter@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/aes-decrypter/-/aes-decrypter-3.0.1.tgz#bf0a1c2d88bfbe8b4341626e4237c03d88aab818"
+  integrity sha512-bnuOEvfgTucocsfx9RAxv9S91lJhFkQsTqDCVnhV4BXk6baO+WOLeipdPTiBNg8QyikBWRuJry7Rf9oY6OWy9A==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@videojs/vhs-utils" "^1.0.0"
+    global "^4.3.2"
+    pkcs7 "^1.0.3"
 
 after@0.8.2:
   version "0.8.2"
@@ -6169,6 +6189,15 @@ m3u8-parser@4.4.0:
   dependencies:
     global "^4.3.2"
 
+m3u8-parser@4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/m3u8-parser/-/m3u8-parser-4.4.2.tgz#870add75f448f03bf3aad9eb51b4bbbe44498a7a"
+  integrity sha512-4JJ163xdmyBjyHIH+OzdT9ATpgLcBulW8tD/aLEcJ8vXxrmonQWjAAOXQ/0szRE3IJkh+ECTrZjOBRH/Ii77cw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@videojs/vhs-utils" "^1.1.0"
+    global "^4.3.2"
+
 magic-string@^0.17.0:
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.17.0.tgz#c1c2c2f3e30d2a568f055a96ea11ce03664fb772"
@@ -6608,13 +6637,15 @@ mpd-parser@0.10.0:
     global "^4.3.2"
     xmldom "^0.1.27"
 
-mpd-parser@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/mpd-parser/-/mpd-parser-0.8.1.tgz#db299dbec337999fbbbace989d227c7b03dc8ea7"
-  integrity sha512-WBTJ1bKk8OLUIxBh6s1ju1e2yz/5CzhPbgi6P3F3kJHKhGy1Z+ElvEnuzEbtC/dnbRcJtMXazE3f93N5LLdp9Q==
+mpd-parser@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/mpd-parser/-/mpd-parser-0.10.1.tgz#bbf2bfb5342d513770d12093a53f95d2f7f1fdcf"
+  integrity sha512-8o3r4kdnhkDCjwHieWfVyZHfHfWT1X17n1qeZsqahwMCPpSGGAmbTZKyXkIPWqmENrsfNMYSK80AFOYqlx7m8A==
   dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@videojs/vhs-utils" "^1.1.0"
     global "^4.3.2"
-    url-toolkit "^2.1.1"
+    xmldom "^0.1.27"
 
 ms@2.0.0:
   version "2.0.0"
@@ -6641,15 +6672,15 @@ mute-stream@~0.0.4:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-mux.js@5.2.0-3:
-  version "5.2.0-3"
-  resolved "https://registry.yarnpkg.com/mux.js/-/mux.js-5.2.0-3.tgz#7fa3dfaebe051f6a5a49428bb266f181f75d6b2d"
-  integrity sha512-msO49dwuKnjslXBqtgOR4AUJo3IwA1YJJVhv51H5WrJ3GgGVD88A1DPR0LCiKIzZRLCAD1SbKlFcCEYVF+I8Vw==
-
 mux.js@5.5.1:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/mux.js/-/mux.js-5.5.1.tgz#5bd5d7b2e5e5560da8126928e93af3c532e08372"
   integrity sha512-5VmmjADBqS4++8pTI6poSRJ+chHdaoI4XErcQPM5w4QfwaDl+FQlSI0iOgWbYDn6CBCbDRKaSCcEiN2K5aHNGQ==
+
+mux.js@5.5.2:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/mux.js/-/mux.js-5.5.2.tgz#a108239ca0b93088b85e06d225f849b53825a24e"
+  integrity sha512-o8DXhUIpWhSezjyeea8L6v6aBQ2GCozMWxUZO6Dqv3Aeo6PFVCvSCQIUQUaCJU6rHCd4MQ3MHb0Oc7d/qltkfg==
 
 nan@^2.12.1:
   version "2.14.1"
@@ -7382,6 +7413,13 @@ pkcs7@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pkcs7/-/pkcs7-1.0.2.tgz#b6dba527528c2942bfc122ce2dafcdb5e59074e7"
   integrity sha1-ttulJ1KMKUK/wSLOLa/NteWQdOc=
+
+pkcs7@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/pkcs7/-/pkcs7-1.0.3.tgz#0380ede02a0ea8c4434902d6912053ee4aa56924"
+  integrity sha512-3MP+alokz148xIxdMpLovjxIUia1cMzxyJ6FjyZl2a1UPapjRk4Y8hni4KsZRGrdbD1woArGMKe/OsSB7ggzHQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 pkg-dir@^3.0.0:
   version "3.0.0"
@@ -9804,7 +9842,7 @@ url-parse-lax@^1.0.0:
   dependencies:
     prepend-http "^1.0.1"
 
-url-toolkit@^2.1.1, url-toolkit@^2.1.3, url-toolkit@^2.1.6:
+url-toolkit@^2.1.3, url-toolkit@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/url-toolkit/-/url-toolkit-2.1.6.tgz#6d03246499e519aad224c44044a4ae20544154f2"
   integrity sha512-UaZ2+50am4HwrV2crR/JAf63Q4VvPYphe63WGeoJxeu8gmOm0qxPt+KsukfakPNrX9aymGNEkkaoICwn+OuvBw==
