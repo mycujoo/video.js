@@ -879,33 +879,23 @@
     url-toolkit "^2.1.3"
     video.js "^6.8.0 || ^7.0.0"
 
-"@videojs/http-streaming@2.0.0-rc.1":
-  version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-2.0.0-rc.1.tgz#864d9fd217ab101123567226c97b76388b94b63b"
-  integrity sha512-m9qPcWxlDtEDq+FtzMRnGGOFMi6N7TH3pLMnoKJOr9wyNwEx5hINzld/+Fq3p12cbGlguyJZf5O7HdA6gUf10Q==
+"@videojs/http-streaming@1.13.3":
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-1.13.3.tgz#f893d0627e91a8a841ac2e55e4c986afb737836b"
+  integrity sha512-rOEShTytYchSxTKR5YvQ91mDN0b3BVOGoBSVzbgMbT8pOm2FEZ1G5dWuLtUpBnvFTPb0cxnTGmISwllPq3EWYg==
   dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@videojs/vhs-utils" "^2.2.0"
-    aes-decrypter "3.0.1"
-    global "^4.3.2"
-    m3u8-parser "4.4.2"
-    mpd-parser "0.10.1"
-    mux.js "5.6.2"
-    video.js "^6 || ^7"
+    aes-decrypter "3.0.0"
+    global "^4.3.0"
+    m3u8-parser "4.4.0"
+    mpd-parser "0.10.0"
+    mux.js "^5.5.3"
+    url-toolkit "^2.1.3"
+    video.js "^6.8.0 || ^7.0.0"
 
-"@videojs/vhs-utils@^1.0.0", "@videojs/vhs-utils@^1.1.0":
+"@videojs/vhs-utils@^1.1.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@videojs/vhs-utils/-/vhs-utils-1.3.0.tgz#04fe402f603af9a5df4b88881fabba0cf13814c2"
   integrity sha512-oiqXDtHQqDPun7JseWkirUHGrgdYdeF12goUut5z7vwAj4DmUufEPFJ4xK5hYGXGFDyDhk2rSFOR122Ze6qXyQ==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    global "^4.3.2"
-    url-toolkit "^2.1.6"
-
-"@videojs/vhs-utils@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@videojs/vhs-utils/-/vhs-utils-2.2.0.tgz#4c8402e54c333a0d1c241499788b5210f3f808d4"
-  integrity sha512-Mtq+doRlbNvis9TyI5kfOg+Vg8aHGXkSXiuNwnkcimqyaP3wO/s/iEVKPcmRUySKivjaWktjdEFVXYfaP+/HTg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     global "^4.3.2"
@@ -1045,16 +1035,6 @@ aes-decrypter@3.0.0:
     commander "^2.9.0"
     global "^4.3.2"
     pkcs7 "^1.0.2"
-
-aes-decrypter@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/aes-decrypter/-/aes-decrypter-3.0.1.tgz#bf0a1c2d88bfbe8b4341626e4237c03d88aab818"
-  integrity sha512-bnuOEvfgTucocsfx9RAxv9S91lJhFkQsTqDCVnhV4BXk6baO+WOLeipdPTiBNg8QyikBWRuJry7Rf9oY6OWy9A==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@videojs/vhs-utils" "^1.0.0"
-    global "^4.3.2"
-    pkcs7 "^1.0.3"
 
 after@0.8.2:
   version "0.8.2"
@@ -6184,15 +6164,6 @@ m3u8-parser@4.4.0:
   dependencies:
     global "^4.3.2"
 
-m3u8-parser@4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/m3u8-parser/-/m3u8-parser-4.4.2.tgz#870add75f448f03bf3aad9eb51b4bbbe44498a7a"
-  integrity sha512-4JJ163xdmyBjyHIH+OzdT9ATpgLcBulW8tD/aLEcJ8vXxrmonQWjAAOXQ/0szRE3IJkh+ECTrZjOBRH/Ii77cw==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@videojs/vhs-utils" "^1.1.0"
-    global "^4.3.2"
-
 magic-string@^0.17.0:
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.17.0.tgz#c1c2c2f3e30d2a568f055a96ea11ce03664fb772"
@@ -6632,16 +6603,6 @@ mpd-parser@0.10.0:
     global "^4.3.2"
     xmldom "^0.1.27"
 
-mpd-parser@0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/mpd-parser/-/mpd-parser-0.10.1.tgz#bbf2bfb5342d513770d12093a53f95d2f7f1fdcf"
-  integrity sha512-8o3r4kdnhkDCjwHieWfVyZHfHfWT1X17n1qeZsqahwMCPpSGGAmbTZKyXkIPWqmENrsfNMYSK80AFOYqlx7m8A==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@videojs/vhs-utils" "^1.1.0"
-    global "^4.3.2"
-    xmldom "^0.1.27"
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -6672,7 +6633,7 @@ mux.js@5.5.1:
   resolved "https://registry.yarnpkg.com/mux.js/-/mux.js-5.5.1.tgz#5bd5d7b2e5e5560da8126928e93af3c532e08372"
   integrity sha512-5VmmjADBqS4++8pTI6poSRJ+chHdaoI4XErcQPM5w4QfwaDl+FQlSI0iOgWbYDn6CBCbDRKaSCcEiN2K5aHNGQ==
 
-mux.js@5.6.2:
+mux.js@^5.5.3:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/mux.js/-/mux.js-5.6.2.tgz#1fd08042382b527750fbb5960129e92f838612bb"
   integrity sha512-66+0HevBv12gJHmoMTbkQssPyiCOJNnm2XarYgUC6nj1DJ8WG0wLdinzMFq5vrbBmDxNNYYh+03Rp/QVzGiSQg==
@@ -7408,13 +7369,6 @@ pkcs7@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pkcs7/-/pkcs7-1.0.2.tgz#b6dba527528c2942bfc122ce2dafcdb5e59074e7"
   integrity sha1-ttulJ1KMKUK/wSLOLa/NteWQdOc=
-
-pkcs7@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/pkcs7/-/pkcs7-1.0.3.tgz#0380ede02a0ea8c4434902d6912053ee4aa56924"
-  integrity sha512-3MP+alokz148xIxdMpLovjxIUia1cMzxyJ6FjyZl2a1UPapjRk4Y8hni4KsZRGrdbD1woArGMKe/OsSB7ggzHQ==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
 
 pkg-dir@^3.0.0:
   version "3.0.0"

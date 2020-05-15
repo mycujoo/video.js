@@ -13,6 +13,7 @@ This default value is hardcoded as a default to the localize method in the SeekB
 ## Status of translations
 
 <!-- START langtable -->
+
 | Language file           | Missing translations                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------- |
 | ar.json (missing 3)     | progress bar timing: currentTime={1} duration={2}                                   |
@@ -790,10 +791,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | {1} is loading.                                                                     |
 |                         | Exit Picture-in-Picture                                                             |
 |                         | Picture-in-Picture                                                                  |
-| pt-BR.json (missing 4)  | Seek to live, currently behind live                                                 |
+| pt-BR.json (missing 2)  | Seek to live, currently behind live                                                 |
 |                         | Seek to live, currently playing live                                                |
-|                         | Exit Picture-in-Picture                                                             |
-|                         | Picture-in-Picture                                                                  |
 | pt-PT.json (missing 48) | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Seek to live, currently behind live                                                 |
@@ -941,4 +940,5 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Picture-in-Picture                                                                  |
 | zh-TW.json (missing 2)  | Exit Picture-in-Picture                                                             |
 |                         | Picture-in-Picture                                                                  |
+
 <!-- END langtable -->
