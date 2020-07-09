@@ -1,7 +1,7 @@
 {
   "name": "@mycujoo/video.js",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
-  "version": "7.8.3-3",
+  "version": "7.8.3-7",
   "main": "./dist/video.cjs.js",
   "module": "./dist/video.es.js",
   "style": "./dist/video-js.css",
@@ -17,7 +17,6 @@
   "homepage": "https://videojs.com",
   "author": "Steve Heffernan",
   "scripts": {
-    "preinstall": "is-npm && npx npm-force-resolutions",
     "sandbox": "node build/sandbox.js",
     "prestart": "npm-run-all sandbox",
     "start": "npm-run-all -p watch karma-server",
@@ -114,6 +113,7 @@
     "gh-release": "^3.5.0",
     "humanize-duration": "^3.18.0",
     "husky": "^1.2.0",
+    "if-env": "^1.0.4",
     "is-npm-cli": "^1.0.0",
     "jsdoc": "^3.6.2",
     "karma": "^4.1.0",
