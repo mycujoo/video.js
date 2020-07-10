@@ -1,7 +1,7 @@
 {
-  "name": "video.js",
+  "name": "@mycujoo/video.js",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
-  "version": "7.8.1-0",
+  "version": "7.8.4-rc.3",
   "main": "./dist/video.cjs.js",
   "module": "./dist/video.es.js",
   "style": "./dist/video-js.css",
@@ -82,9 +82,13 @@
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "@videojs/http-streaming": "2.0.0",
+    "@videojs/vhs-utils": "^2.2.0",
     "@videojs/xhr": "2.5.1",
+    "aes-decrypter": "^3.0.1",
     "global": "4.3.2",
     "keycode": "^2.2.0",
+    "m3u8-parser": "^4.4.0",
+    "mpd-parser": "^0.10.1",
     "safe-json-parse": "4.0.0",
     "videojs-font": "3.2.0",
     "videojs-vtt.js": "^0.15.2"
@@ -95,6 +99,7 @@
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "access-sniff": "^3.2.0",
+    "acorn": "^7.3.1",
     "autoprefixer": "^9.6.0",
     "bestzip": "^2.1.4",
     "browserify": "^16.2.3",
@@ -150,6 +155,13 @@
     "videojs-languages": "^2.0.0",
     "videojs-standard": "^8.0.3",
     "webpack": "^1.15.0"
+  },
+  "resolutions": {
+    "@videojs/http-streaming": "2.0.0",
+    "m3u8-parser": "4.4.0",
+    "mpd-parser": "0.10.1",
+    "aes-decrypter": "3.0.0",
+    "@videojs/vhs-utils": "2.2.0"
   },
   "vjsstandard": {
     "ignore": [
