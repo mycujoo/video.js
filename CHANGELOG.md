@@ -1,3 +1,11 @@
+
+<a name="7.8.3-rc.999"></a>
+## [7.8.3-rc.999](https://github.com/videojs/video.js/compare/v7.8.3...v7.8.3-rc.0) (2020-09-22)
+
+### Bug Fixes
+
+* Added to pass tests
+
 <a name="7.8.3"></a>
 ## [7.8.3](https://github.com/videojs/video.js/compare/v7.8.2...v7.8.3) (2020-05-28)
 
